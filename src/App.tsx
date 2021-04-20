@@ -1,5 +1,7 @@
 import React from 'react';
-import {} from './init'
+import {init} from './init'
+
+init()
 
 function App() {
   return (

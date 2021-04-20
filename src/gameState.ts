@@ -1,10 +1,10 @@
-type gameState = {
+type gameStateType = {
   current: string;
   clock: number;
   tick: () => number;
 }
 
-export const gameState: gameState = {
+export const gameState: gameStateType = {
   current: 'INIT',
   clock: 1,
   tick() {
