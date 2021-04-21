@@ -1,12 +1,12 @@
-import {gameState} from './gameState'
+import {gameState, gameStateType} from './gameState'
 
-const TICK_RATE = 3000;
+const TICK_RATE = 2000;
 
 function tick() {
   console.log('tick', Date.now())
 }
 
-async function init() {
+function init(gameState: gameStateType): void  {
   console.log('start game')
   
   let nextTimeToTick = Date.now()
