@@ -1,10 +1,7 @@
-import {gameState, gameStateType} from './gameState'
+import { gameStateType} from './gameState'
 
 const TICK_RATE = 2000;
 
-function tick() {
-  console.log('tick', Date.now())
-}
 
 function init(gameState: gameStateType): void  {
   console.log('start game')
@@ -33,5 +30,3 @@ export {init}
 
 
 
-
-export {}

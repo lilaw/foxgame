@@ -11,7 +11,7 @@ const initGame: GameType = {
   fox: 'fox hidden',
   scene: 'game day',
   poopBag: '.poop-bag',
-  modal: 'modal text here'
+  modal: ''
 }
 export type AdjustmentAction = {
   type: 'FOX' | 'SCENE' | 'POOPBAG' | 'MODAL';
